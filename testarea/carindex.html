@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <title>Fetch API Cox</title>
+</head>
+<body>
+    <header class = "bg-dark text-white text-center p-2">
+        <h1>Get Cox API</h1>
+    </header>
+    <main class="container-fluid">
+        <!-- <button id='getDataid'>Get Dataset ID</button>
+        <button id='getDV'>Get DVJson</button> -->
+        <!-- <button id='getAPI'>Get API Data</button>
+        <button id='getDataset'>Get Dataset Data</button> -->
+
+        <div>Connected to: <span id='myconnect'></span></div>
+
+        <div id = "vehicles"></div>
+        <div id = "dealers"></div>
+        <div id = "output"></div>
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="../middleware/coxapi.js"></script>
+</body>
+</html>

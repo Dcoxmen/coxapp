@@ -12,7 +12,7 @@ app.use(express.json({extended: false}));
 // Use Routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
-app.use('/api/dealerships', require('./routes/api/dealerships'));
+app.use('/api/dealership', require('./routes/api/dealership'));
 app.use('/api/vehicles', require('./routes/api/vehicles'));
 app.use('/api/datasetid', require('./routes/api/datasetid'));
 
